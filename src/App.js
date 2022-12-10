@@ -21,6 +21,7 @@ function App() {
           </Route>
           <Route exact path = '/blogs/:id'>
             <BlogDetails/>
+          </Route>
         </Switch>
       </div>
     </div>
