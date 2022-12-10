@@ -21,10 +21,6 @@ function App() {
           </Route>
           <Route exact path = '/blogs/:id'>
             <BlogDetails/>
-          </Route>
-          <Route path="*">
-            <NotFound/>
-          </Route>
         </Switch>
       </div>
     </div>
